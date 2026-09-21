@@ -1,4 +1,6 @@
-<img src="s1.jpg" alt="WindowsGSM.Schedule1" width="600">
+<p align="center">
+  <img src="s1.jpg" alt="WindowsGSM.Schedule1" width="400">
+</p>
 # WindowsGSM.Schedule1
 
 A WindowsGSM plugin for hosting **Schedule I** dedicated servers, powered by the community mod [DedicatedServerMod (S1DS)](https://github.com/ifBars/S1DedicatedServers) by ifBars.
