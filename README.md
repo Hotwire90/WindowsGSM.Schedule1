@@ -8,7 +8,7 @@ Schedule I has no official dedicated server. This plugin automates installing th
 
 ## Installation
 
-1. Drop the `Schedule1` folder (containing `Schedule1.cs`, `Schedule1.png`, `author.png`) into WindowsGSM's `plugins` folder.
+1. Drop the `Schedule1.cs` folder into WindowsGSM's `plugins` folder.
 2. In WindowsGSM, click **Reload Plugins**.
 3. **Add Server** > select **Schedule I Dedicated Server (S1DS)**.
 4. When prompted, log in with a Steam account that **owns Schedule I**. Anonymous SteamCMD login will not work - this is a paid Early Access title with no free/anonymous server depot, unlike games such as Valheim that ship a separate free dedicated-server App ID.
@@ -39,6 +39,8 @@ You don't need to touch `MelonPreferences.cfg`. Running through WindowsGSM alrea
 
 Everything about how the server behaves (auth, mod verification, gameplay, etc.) is controlled through `server_config.toml`. You don't need to worry about command-line arguments or WindowsGSM's Additional Parameters field for any of this - it's all handled through the config file.
 
+**A few settings are controlled by WindowsGSM itself, not the config file:** Server Name, Server Port, Server Query Port, Server Maxplayer, and Server GSLT in WindowsGSM's own Edit Server dialog get synced into `server_config.toml` automatically every time you click Start. Edit those five from WindowsGSM, not by hand-editing the config file - any manual edit to those specific lines in `server_config.toml` will get overwritten on the next Start.
+
 ---
 
 ## Steam authentication - read this before going further
@@ -59,8 +61,10 @@ This is the single most confusing part of running this server, so here's everyth
 
 1. Go to `https://steamcommunity.com/dev/managegameservers` logged in as the account that owns the game.
 2. Enter App ID `3164500`, generate a token.
-3. In `server_config.toml`: set `steamGameServerLogOnAnonymous = false` and `steamGameServerToken = '<your token>'`.
+3. Paste the token into WindowsGSM's **Server GSLT** field in the Edit Server dialog (not `server_config.toml` directly - see the note above).
 4. Start the server - no Steam client needed running in the background.
+
+Leaving Server GSLT blank keeps the server on anonymous login.
 
 ---
 
