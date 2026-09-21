@@ -78,8 +78,19 @@ If testing on the same machine/LAN as the server, launch the client **before** s
 
 ---
 
+## Support
+
+If this plugin saved you some time, [Buy Me a Coffee](https://buymeacoffee.com/hotwire90).
+
+---
+
 ## Credits
 
+- [WindowsGSM](https://github.com/WindowsGSM/WindowsGSM) - the server management tool this plugin is built for
 - [DedicatedServerMod (S1DS)](https://github.com/ifBars/S1DedicatedServers) by ifBars
 - [MelonLoader](https://github.com/LavaGang/MelonLoader) by LavaGang
 - Plugin author: Hotwire90
+
+---
+
+MIT License - Copyright (c) 2026 Hotwire90. See [LICENSE](LICENSE) for full terms.
