@@ -1,3 +1,4 @@
+![WindowsGSM.Schedule1](s1.jpg)
 # WindowsGSM.Schedule1
 
 A WindowsGSM plugin for hosting **Schedule I** dedicated servers, powered by the community mod [DedicatedServerMod (S1DS)](https://github.com/ifBars/S1DedicatedServers) by ifBars.
