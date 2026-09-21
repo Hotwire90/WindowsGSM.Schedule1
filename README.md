@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="sch1.jpg" alt="WindowsGSM.Schedule1" width="500">
+  <img src="Schedule1DS.jpg" alt="WindowsGSM.Schedule1" width="500">
 </p>
 
 # WindowsGSM.Schedule1
